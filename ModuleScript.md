@@ -7,6 +7,6 @@ local RepS = game:GetService("ReplicatedStorage")
 local Module = require(RepS.module)
 -- || Functions || --
 for i,v in pairs(Module) do
-    print(i,v)
+    print(i,v) -- "i","v" can be anything 
 end
 
